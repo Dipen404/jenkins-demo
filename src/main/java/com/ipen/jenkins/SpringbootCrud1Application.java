@@ -17,7 +17,8 @@ public class SpringbootCrud1Application {
 	
 	@GetMapping("/")
 	public String home() {
-		return "Jenkins is running";
+		return "Jenkins is running and safely";
+		
 	}
 
 }
